@@ -1,6 +1,5 @@
 package fiftyPopularCodintInterviewProblems;
 
-import org.cef.CefSettings;
 
 import java.util.ArrayList;
 import java.util.List;
