@@ -4,16 +4,11 @@ import algoritme.sorting.QuickSort
 import leetCode.dataStructures.ListNode
 import leetCode.hard.LongestHappyPrefix
 import leetCode.hard.MedianOfTwoSortedArrays
-import leetCode.medium.AddTwoNumbers
-import leetCode.medium.LongestSubStringWithoutRepeatingCharacters
-import leetCode.medium.MaximumSubarray
-import leetCode.medium.ProductOfArrayExceptSelf
+import leetCode.medium.*
 
 fun main() {
-    val productOfArrayExceptSelf = ProductOfArrayExceptSelf()
-    val arr = productOfArrayExceptSelf.productExceptSelf(intArrayOf(1, 2, 3, 4))
-    arr.onEach {
-        print("$it ")
-    }
+    val longestConsecutiveSequence = LongestConsecutiveSequence()
+    val number = longestConsecutiveSequence.longestConsecutive(intArrayOf(100, 5, 4,200, 1, 3, 2))
+    print("-> $number")
 
 }
