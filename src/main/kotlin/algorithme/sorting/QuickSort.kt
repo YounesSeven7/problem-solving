@@ -1,7 +1,11 @@
-package algoritme.sorting
+package algorithme.sorting
 
 class QuickSort {
      fun sortThis(array: IntArray, start: Int, end: Int) {
+        sort(array, 0, array.size-1)
+    }
+
+    fun sort(array: IntArray, start: Int, end: Int) {
         if (start >= end) {
             return
         } else {
