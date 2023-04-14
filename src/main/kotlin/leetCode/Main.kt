@@ -1,14 +1,9 @@
 package leetCode
 
-import algoritme.sorting.QuickSort
-import leetCode.dataStructures.ListNode
-import leetCode.hard.LongestHappyPrefix
-import leetCode.hard.MedianOfTwoSortedArrays
-import leetCode.medium.*
+import leetCode.medium.slidingWindow.BestTimeToBuyAndSellStock
 
 fun main() {
-    val longestConsecutiveSequence = LongestConsecutiveSequence()
-    val number = longestConsecutiveSequence.longestConsecutive(intArrayOf(100, 5, 4,200, 1, 3, 2))
-    print("-> $number")
+    val bestTimeToBuyAndSellStock = BestTimeToBuyAndSellStock()
+    print(bestTimeToBuyAndSellStock.maxProfit(intArrayOf(7,6,4,3,1)))
 
 }
