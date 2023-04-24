@@ -1,4 +1,4 @@
-package leetCode.medium.slidingWindow
+package leetCode.medium.twoPointers
 
 class ContainerWithMostWater {
     fun maxArea(height: IntArray): Int {
