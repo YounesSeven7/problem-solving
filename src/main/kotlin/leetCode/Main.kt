@@ -1,9 +1,19 @@
 package leetCode
 
-import leetCode.medium.slidingWindow.BestTimeToBuyAndSellStock
+import leetCode.trees.SerializeAndDeserializeBinaryTree
+import leetCode.trees.SerializeAndDeserializeBinaryTree.TreeNode
 
 fun main() {
-    val bestTimeToBuyAndSellStock = BestTimeToBuyAndSellStock()
-    print(bestTimeToBuyAndSellStock.maxProfit(intArrayOf(7,6,4,3,1)))
+    val input = TreeNode(1,
+        TreeNode(2,
+            TreeNode(3,
+                TreeNode(4)))
+    )
+    val serializeAndDeserializeBinaryTree = SerializeAndDeserializeBinaryTree()
+    val output = serializeAndDeserializeBinaryTree.serialize(input)
+    println(output)
+    //serializeAndDeserializeBinaryTree.deserialize(output)
+    
 
 }
+
