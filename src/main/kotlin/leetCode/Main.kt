@@ -1,19 +1,18 @@
 package leetCode
 
-import leetCode.trees.SerializeAndDeserializeBinaryTree
-import leetCode.trees.SerializeAndDeserializeBinaryTree.TreeNode
+import leetCode.BinManipulation.BitManipulation
+import leetCode.BinManipulation.ReverseInteger
 
 fun main() {
-    val input = TreeNode(1,
-        TreeNode(2,
-            TreeNode(3,
-                TreeNode(4)))
-    )
-    val serializeAndDeserializeBinaryTree = SerializeAndDeserializeBinaryTree()
-    val output = serializeAndDeserializeBinaryTree.serialize(input)
-    println(output)
-    //serializeAndDeserializeBinaryTree.deserialize(output)
-    
+
+    val count = IntArray(26)
+
+    count[0] = 10
+
+    val array = Array<Set<Int>?>(3) { null }
+
 
 }
+
+
 

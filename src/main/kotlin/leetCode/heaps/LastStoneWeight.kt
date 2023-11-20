@@ -8,7 +8,7 @@ class LastStoneWeight {
 
         for (element in stones)
             maxHeap.add(element)
-        print(maxHeap)
+
         while (maxHeap.size > 1) {
             val y = maxHeap.remove()
             val x = maxHeap.peek()
